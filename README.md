@@ -6,11 +6,11 @@ diferentes endpoints.
 # Index
 
 - [Index](#index)
-- [Estructura de carpertas y uso]
-- [Archivos en la raiz]
-- [Enpoints]
-- [Scripts]
-- [Licencia]
+- [Estructura de carpertas y uso](#estructura-de-carpertas-y-uso)
+- [Archivos en la raiz](#archivos-en-la-raiz)
+- [Enpoints](#enpoints)
+- [Scripts](#scripts)
+- [Licencia](#licencia)
 
 # Estructura de carpertas y uso
 
