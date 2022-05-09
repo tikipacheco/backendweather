@@ -34,8 +34,7 @@ Este directorio debe contener todas las interacciones con otros servicios API.
 | Enpoints | Description |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | /location | Devuelve los datos de ubicación city según ip-api. |
-| /current | City es un parámetro opcional. Devuelve los datos de ubicación city o la ubicación actual según
-ip-api y el estado del tiempo actual. |
+| /current | City es un parámetro opcional. Devuelve los datos de ubicación city o la ubicación actual según ip-api y el estado del tiempo actual. |
 | /forecast | City es un parámetro opcional. Devuelve los datos de ubicación city o la ubicación actual según ip-api y el estado del tiempo a 5 días |
 
 
