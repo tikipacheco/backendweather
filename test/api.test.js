@@ -3,7 +3,7 @@ const should = require('should');
 const app = require('../app');
 
 
-//==================== user API test ====================
+//==================== API test ====================
 
 describe('GET /location', function () {
     it('responde con json contiendo la ubicación', done => {
@@ -115,44 +115,3 @@ describe('GET /forecast/:city', function () {
             .expect(400, done)
     });
 })
-/*
-describe('GET /rest-controller', function () {
-    it('GET /location', done => {
-        request(app)
-            .get('/v1/location')
-            .set('Accept', 'application/json')
-            .expect('Content-Type', /json/)
-            .expect(200, done)
-    });
-    it('GET /current', done => {
-        request(app)
-            .get('/v1/current')
-            .set('Accept', 'application/json')
-            .expect('Content-Type', /json/)
-            .expect(function(res){                
-                should(res.body).have.property('status');
-                should(res.body).have.property('message');
-                should(res.body).have.property('data');
-            })
-            .expect(200, done)
-    })
-    /*it('GET /forecast', done => {
-        request(app)
-            .get('/v1/forecast?city=santiago del estero')
-            .set('Accept', 'application/json')
-            //.expect('Content-Type', /json/)
-            .expect(function(res){                
-                should(res.body).have.property('field')
-                //res.body.should.be.a('object');
-            })
-            .expect(200, done)
-    });
-    it('GET /forecast with query', done => {
-        request(app)
-            .get('/v1/forecast?ciudad=45')
-            .set('Accept', 'application/json')
-            .expect('Content-Type', /json/)
-            .expect(200, done)
-    });
-    
-});*/
